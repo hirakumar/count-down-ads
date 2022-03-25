@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { CountDown } from '.'
 
-describe('ExampleComponent', () => {
+describe('CountDown', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(CountDown).toBeTruthy()
   })
 })

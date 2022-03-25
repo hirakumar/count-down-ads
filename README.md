@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save countdown
+npm i count-down-ads
 ```
 
 ## Usage
@@ -15,12 +15,18 @@ npm install --save countdown
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'countdown'
-import 'countdown/dist/index.css'
+import CountDownAds from 'countdownads'
+import 'countdownads/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <CountDownAds
+        startdate='2022-09-20'
+        starttime='23:55:00'
+        url='https://images.freeimages.com/images/large-previews/d9c/parrot-attack-1410608.jpg'
+      />
+    )
   }
 }
 ```
